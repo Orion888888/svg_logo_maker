@@ -1,6 +1,6 @@
 //imports the different classes from files located in the 'lib' folder.
 const Square = require("../lib/Square")
-const Triangle = require("../lib/Triangle")
+const Triangle = require("../lib/triangle")
 const Circle = require("../lib/Circle")
 
 //defines a function named  generateLogo  that generates a logo based on the input data

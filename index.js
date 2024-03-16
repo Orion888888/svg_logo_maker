@@ -34,3 +34,16 @@ const questions = [
     },
 ];
 
+//enter input for all prompts
+//SVG file is created name 'logo.svg'
+function writeToFile(fileName, data) {
+    var content = generateLogo(data);
+    fs.writeFile(fileName, content, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+        //output text "Generated logo.svg" is printed in the command line
+        console.log("Generated logo.svg");
+    });
+}
+

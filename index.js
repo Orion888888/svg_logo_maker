@@ -47,3 +47,12 @@ function writeToFile(fileName, data) {
     });
 }
 
+// function to intialize app
+function init() {
+    inquirer.prompt(questions).then(function(data) {
+        var fileName = 'logo.svg';
+        writeToFile(fileName, data);
+    });
+}
+
+init();

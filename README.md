@@ -40,7 +40,7 @@ npm i express, then run node server.js to run app
 - Express.js
 - Render.com
 
-- [Deployed - Site]()
+- ![Deployed - Site](assets/media/svg_logo_maker_video.gif)
 
 - [Github - Repo](https://github.com/Orion888888/svg_logo_maker.git)
 

@@ -1,5 +1,5 @@
 //imports the different classes from files located in the 'lib' folder.
-const Square = require("../lib/Square")
+const Square = require("../lib/square")
 const Triangle = require("../lib/triangle")
 const Circle = require("../lib/Circle")
 
